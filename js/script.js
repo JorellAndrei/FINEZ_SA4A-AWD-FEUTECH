@@ -13,3 +13,8 @@ function closePopup(event) {
         popupView.classList.remove("active");
     }
 }
+
+document.getElementById('paoCardButton').addEventListener('click', function() {
+    // Redirect to the specified URL
+    window.location.href = 'https://jorellandrei.github.io/FINEZ_TECHNICAL4B-AWD-FEUTECH/';
+});
